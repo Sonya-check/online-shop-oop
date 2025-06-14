@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           </>
         ) : (
           <>
-            {user.role === 'ADMIN' && <Link to="/products/new">Create Product</Link>} |{' '}
+            
             <button onClick={handleLogout} style={{ cursor: 'pointer' }}>
               Logout
             </button>
