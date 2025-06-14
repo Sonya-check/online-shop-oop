@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "build": "prisma generate && tsc && cp -R src/generated dist/src/generated",
-    "start": "npx prisma migrate deploy && node dist/index.js"
-  },
+  "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+  "build": "prisma generate && tsc && cp -R src/generated dist/generated",
+  "start": "npx prisma migrate deploy && node dist/index.js"
+},
   
   "keywords": [],
   "author": "",
